@@ -74,7 +74,8 @@ header .pricing {
 .choose-btn {
   width: 90px;
   height: 35px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-weight: bold; }
 
 .btn-border {
   border: 1px solid #E1E1E1; }
@@ -98,3 +99,30 @@ header .pricing {
   color: #868686;
   text-align: center;
   font-size: 20px; }
+
+.paragraph {
+  margin: 110px 40px 40px; }
+
+.paragraph-text {
+  color: #7E7E7E;
+  text-align: left;
+  line-height: 30px; }
+
+.paragraph-head {
+  letter-spacing: 5px;
+  font-size: 20px;
+  margin-bottom: 15px; }
+
+footer {
+  text-align: center;
+  background: black;
+  color: #7E7E7E;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 10px; }
+
+footer a {
+  color: #DDDDDD; }
+
+.link-space {
+  margin-right: 6px; }
