@@ -101,6 +101,9 @@ header .pricing {
   font-size: 20px; }
 
 .paragraph {
+  margin: 40px; }
+
+.paragraph-a {
   margin: 110px 40px 40px; }
 
 .paragraph-text {
