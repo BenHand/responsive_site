@@ -1,5 +1,11 @@
+.radius {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px; }
+
 header {
-  background: black;
+  background: white;
   overflow: hidden;
   margin-left: 25px; }
 
@@ -16,9 +22,8 @@ header .pricing {
 
 .background {
   background: url(../images/background.jpg);
-  width: 400px;
   height: 200px;
-  margin-left: 10px; }
+  margin: 0 10px; }
 
 .head-text {
   color: white;
@@ -27,13 +32,10 @@ header .pricing {
   padding-top: 60px; }
 
 .bottom-half {
-  background: black;
-  height: 500px;
-  width: 425px;
+  background: white;
   margin-top: 50px; }
 
 .cost-box {
-  width: 385px;
   height: 225px;
   background: #519251;
   margin: 0 20px; }
@@ -51,5 +53,48 @@ header .pricing {
 
 .cost-term {
   color: #A9C9A9;
+  text-align: center;
+  font-size: 20px; }
+
+.benefits {
+  color: #7E7E7E;
+  background: #F7F7F7;
+  margin: 0 20px;
+  line-height: 40px;
+  text-align: center; }
+
+.ben-border {
+  border: 1px solid #E1E1E1; }
+
+.choose {
+  background: white;
+  height: 40px;
+  padding: 20px 0; }
+
+.choose-btn {
+  width: 90px;
+  height: 35px;
+  margin: 0 auto; }
+
+.btn-border {
+  border: 1px solid #E1E1E1; }
+
+.choose-style {
+  text-decoration: none;
+  color: black; }
+
+.small-biz {
+  background: #2C4985; }
+
+.cost-term-sb {
+  color: #94A2C1;
+  text-align: center;
+  font-size: 20px; }
+
+.enterprise {
+  background: #111111; }
+
+.cost-term-enter {
+  color: #868686;
   text-align: center;
   font-size: 20px; }

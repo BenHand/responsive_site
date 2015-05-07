@@ -1,10 +1,17 @@
-$background-primary:black;
+$background-primary:white;
 $text-color-primary:#7E7E7E;
 $text-large-color:white;
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;}
+    .radius { @include border-radius(20px);}
 header {
 	background:$background-primary;
 	overflow: hidden;
 	margin-left: 25px;
+	// margin-right: 25px;
 
 	.top-link{
 		color: #394249;
@@ -15,9 +22,9 @@ header {
 }
 .background{
 	background: url(../images/background.jpg);
-	width: 400px;
+	// width: 400px;
 	height: 200px;
-	margin-left: 10px;
+	margin: 0 10px;
 }
 .head-text{
 	color:$text-large-color;
@@ -27,12 +34,12 @@ header {
 }
 .bottom-half{
 	background:$background-primary;
-	height: 500px;
-	width: 425px;
+	// height: 500px;
+	// width: 425px;
 	margin-top:50px;
 }
 .cost-box{
-	width:385px;
+	// width:385px;
 	height:225px;
 	background:#519251;
 	margin:0 20px;
@@ -53,4 +60,47 @@ header {
 	color:#A9C9A9;
 	text-align:center;
 	font-size: 20px;
+}
+.benefits{
+	color:$text-color-primary;
+	background:#F7F7F7;
+	margin:0 20px;
+	line-height: 40px;
+	text-align: center;
+}
+.ben-border{
+	border:1px solid #E1E1E1;
+}
+.choose{
+	background:white;
+	height: 40px;
+	padding: 20px 0;
+}
+.choose-btn{
+	width:90px;
+	height:35px;
+	margin: 0 auto;
+}
+.btn-border{
+	border:1px solid #E1E1E1;
+}
+.choose-style{
+	text-decoration: none;
+	color:black;
+}
+.small-biz{
+	background:#2C4985;
+}
+.cost-term-sb{
+	color:#94A2C1;
+	text-align: center;
+	font-size:20px;
+}
+.enterprise{
+	background:#111111;
+}
+.cost-term-enter{
+	color: #868686;
+	text-align: center;
+	font-size:20px;
 }
