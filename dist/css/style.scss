@@ -1,1 +1,18 @@
 $background-primary:white;
+$text-color-primary:#7E7E7E;
+
+header {
+	background:$background-primary;
+
+	.top-link{
+		color: #394249;
+		float: left;
+		margin: 15px;
+	}
+	.main-text{
+		color: $text-color-primary;
+	}
+	.pricing {
+		color:black;
+	}
+}
