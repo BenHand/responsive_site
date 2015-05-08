@@ -29,7 +29,8 @@ header .pricing {
   color: white;
   font-size: 30px;
   text-align: center;
-  padding-top: 60px; }
+  padding-top: 60px;
+  text-shadow: 2px 2px 2px black; }
 
 .price-tiers {
   background: white;
@@ -129,3 +130,10 @@ footer a {
 
 .link-space {
   margin-right: 6px; }
+
+@media (min-width: 479px) {
+  .background {
+    height: 480px; }
+  .head-text {
+    padding-top: 170px;
+    font-size: 50px; } }
