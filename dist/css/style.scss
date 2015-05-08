@@ -33,6 +33,12 @@ header {
 	padding-top: 60px;
 	text-shadow: 2px 2px 2px black;
 }
+.container{
+	text-align:center;
+}
+// .container-paragraph{
+
+// }
 .price-tiers{
 	background:$background-primary;
 	// height: 500px;
@@ -147,8 +153,29 @@ footer {
 }
 @media (min-width: 767px) {
 	.price-tiers{
-		// display: inline-block;
 		display: inline-block;
-		overflow: hidden;
-	}
+		overflow: hidden;}
+	.cost-box{
+		margin:0 20px;
+		height:170px;
+		padding:0px;}
+	.cost-text{font-size: 10px;}
+	.cost-amount{font-size: 70px;}
+	.cost-term{font-size: 20px;}
+	.ben-border{
+		font-size:12px;
+		margin: 0 auto;
+		padding-left:25px;
+		padding-right:25px;}
+	// .paragraph-a {
+	// 	display: inline-block;
+	// 	overflow: hidden;
+	// 	max-width:767px;
+	// 	word-wrap: normal}
+	// .paragraph-text{
+	// 	display: inline-block;
+	// 	overflow: hidden;
+	// 	max-width:767px;
+	// }
+
 }
