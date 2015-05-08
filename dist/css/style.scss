@@ -145,3 +145,10 @@ footer {
 		font-size: 50px;
 	}
 }
+@media (min-width: 767px) {
+	.price-tiers{
+		// display: inline-block;
+		display: inline-block;
+		overflow: hidden;
+	}
+}
