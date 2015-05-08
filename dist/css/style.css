@@ -35,6 +35,9 @@ header .pricing {
 .container {
   text-align: center; }
 
+.container-paragraph {
+  text-align: left; }
+
 .price-tiers {
   background: white;
   margin-top: 50px; }
@@ -142,6 +145,8 @@ footer a {
     font-size: 50px; } }
 
 @media (min-width: 767px) {
+  .background {
+    margin: 0 5px; }
   .price-tiers {
     display: inline-block;
     overflow: hidden; }
@@ -159,4 +164,13 @@ footer a {
     font-size: 12px;
     margin: 0 auto;
     padding-left: 25px;
-    padding-right: 25px; } }
+    padding-right: 25px; }
+  .container-paragraph {
+    text-align: center; }
+  .paragraph-a, .paragraph {
+    max-width: 250px;
+    font-size: 14px;
+    display: inline-block;
+    text-align: left; }
+  .paragraph-head {
+    font-size: 16px; } }

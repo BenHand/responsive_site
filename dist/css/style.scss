@@ -36,9 +36,9 @@ header {
 .container{
 	text-align:center;
 }
-// .container-paragraph{
-
-// }
+.container-paragraph{
+	text-align: left;
+}
 .price-tiers{
 	background:$background-primary;
 	// height: 500px;
@@ -152,6 +152,9 @@ footer {
 	}
 }
 @media (min-width: 767px) {
+	.background{
+		margin:0 5px;
+	}
 	.price-tiers{
 		display: inline-block;
 		overflow: hidden;}
@@ -167,15 +170,17 @@ footer {
 		margin: 0 auto;
 		padding-left:25px;
 		padding-right:25px;}
-	// .paragraph-a {
-	// 	display: inline-block;
-	// 	overflow: hidden;
-	// 	max-width:767px;
-	// 	word-wrap: normal}
-	// .paragraph-text{
-	// 	display: inline-block;
-	// 	overflow: hidden;
-	// 	max-width:767px;
-	// }
+	.container-paragraph{
+		text-align: center;
+	}
+	.paragraph-a, .paragraph {
+		max-width: 250px;
+		font-size: 14px;
+		display: inline-block;
+		text-align: left;
+	}
+	.paragraph-head{
+		font-size: 16px;
+	}
 
 }
